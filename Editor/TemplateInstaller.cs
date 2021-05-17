@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 using System.IO;
 
@@ -10,8 +9,14 @@ public class TemplateInstaller
     {
         if (!AssetDatabase.IsValidFolder("WebGLTemplates/Arachnid"))
         {
-            FileUtil.CopyFileOrDirectory("../Packages/com.bottinogames.arachnid/WebGLTemplates/Arachnid", "WebGLTemplates/Arachnid");
+            Install();
         }
     }
+
+
+    [MenuItem("Arachnid/Install")]
+    public static void Install()
+    {
+        FileUtil.CopyFileOrDirectory("../Packages/com.bottinogames.arachnid/WebGLTemplates/Arachnid", "WebGLTemplates/Arachnid");
+    }
 }
-#endif
