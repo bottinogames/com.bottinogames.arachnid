@@ -1,5 +1,4 @@
-﻿#if UNITY_Editor
-using System.IO;
+﻿using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
 
@@ -18,4 +17,3 @@ namespace Arachnid
         }
     }
 }
-#endif
