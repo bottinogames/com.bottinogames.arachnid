@@ -1,2 +1,0 @@
-Essentiall the standard minimal player, but filling the entirety of the browser window, dynamically re-scales. Works on mobile.
-An edited version of https://gist.github.com/barkingdoginteractive/c2028c29331339629e9bbf641b0114e8
