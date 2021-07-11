@@ -12,10 +12,4 @@ public static class ArachnidInstaller
     {
         AssetDatabase.ImportPackage(PACKAGE_URL, true);
     }
-
-    [MenuItem("Test Item/Test")]
-    public static void TEST()
-    {
-        Debug.Log("Test Item");
-    }
 }
