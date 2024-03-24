@@ -11,4 +11,4 @@ NOTE:
 When using Arachnid with itch.io, make sure that your embed options are set to 'Click to launch in fullscreen' rather than 'Embed in page'. 
 
 ## Example
-Arachnid can be seen in action in the game [Astral Ascent](https://bottino-games.itch.io/astral-ascent).
+Arachnid can be seen in action in the game [Astral Ascent](https://alice-bottino.itch.io/astral-ascent).
